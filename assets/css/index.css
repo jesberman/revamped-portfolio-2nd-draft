@@ -72,7 +72,7 @@ body{
 }
 
 #banner-header-text{
-  font-family: fantasy,Arial;
+  font-family: Arial;
   background-color: #2CD1D8;
   color: #FFCF83;
   text-shadow: 2px 2px 4px #000000;
@@ -124,7 +124,7 @@ padding-top: 200px;
 }
 
 #what-we-do-pictures-heading {
-  font-family: fantasy,Arial;
+  font-family: Arial;
   color: #00537D;
   text-shadow: 2px 2px 4px #000000;
   font-size: 33px;
@@ -151,7 +151,7 @@ padding-top: 200px;
 .what-we-do-image-div {
   float: left;
   text-align: center;
-  font-family: fantasy,Arial;
+  font-family: Arial;
   color: #00537D;
   font-size: 33px;
   width: 25%;
@@ -188,7 +188,7 @@ padding-top: 200px;
   margin-top: 300px;
   margin-bottom: 400px;
   color: white;
-  font-family: fantasy, arial; 
+  font-family:  arial; 
   font-size: 64px;
   opacity: 0.9;
   text-shadow: 2px 2px 4px #000000;
@@ -203,7 +203,7 @@ padding-top: 200px;
 }
 
 #ending-div-heading {
-  font-family: fantasy, arial; 
+  font-family:  arial; 
   color: #00537D;
   font-size: 43px;
   text-shadow: 2px 2px 4px #000000;
@@ -251,7 +251,7 @@ padding-top: 200px;
   background-color: #3B404F;
   float: left; 
   width: 80%;
-  font-family: fantasy, Arial;
+  font-family:  Arial;
   font-size: 28px;
   color: #FFCF83;
 }
@@ -292,7 +292,7 @@ padding-top: 200px;
   background-color: #3B404F;
   float: left; 
   width: 100%;
-  font-family: fantasy, Arial;
+  font-family:  Arial;
   font-size: 28px;
   color: #FFCF83;
 }
@@ -321,7 +321,7 @@ padding-top: 200px;
   background-color: #3B404F;
   float: left; 
   width: 100%;
-  font-family: fantasy, Arial;
+  font-family:  Arial;
   font-size: 28px;
   color: #FFCF83;
 }
@@ -554,7 +554,7 @@ padding-top: 200px;
 @media screen and (max-width: 450px) {
 
   #banner {
-    height: 800px;
+    height: 1000px;
   }
 
   #banner-symbol {
@@ -645,7 +645,7 @@ padding-top: 200px;
 }
 
 #fly-over-div {
-  font-size: 50px;
+  font-size: 40px;
 }
 @media screen and (max-width: 300px) {
   #what-we-do {
