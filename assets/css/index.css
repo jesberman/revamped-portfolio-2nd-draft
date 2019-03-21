@@ -265,7 +265,6 @@ padding-top: 200px;
 
 #footer1-section1-col-1-contact-button {
   background-color: #F8932B;
-  border-color: green;  
   padding-top: 20px;
   border-radius: 9px;
   transition: transform 1s; /* Animation */
@@ -345,7 +344,22 @@ padding-top: 200px;
     color: #666666;
 }
 
-#footer-icons {
+#footer-icon-header {
+  text-align: center;
+  font-size: 30px;
+
+}
+
+#footer-icons1 {
+  margin-right: 0%;
+   text-align: center;
+  font-size: 30px;
+  visibility: hidden;
+  
+
+}
+
+#footer-icons2 {
   text-align: center;
   font-size: 30px;
 
@@ -373,7 +387,7 @@ padding-top: 200px;
 
 /* *********************Custom Media Queries********************************************* */
 
-@media screen and (max-width: 1560px) {
+@media screen and (max-width: 1860px) {
 
   #what-we-do {
     height: 1900px;
@@ -413,8 +427,11 @@ padding-top: 200px;
     margin-bottom: 20%;
   }
 }
-
-
+@media screen and (max-width: 1378px) {
+  #banner-symbol-letter {
+    display: none;
+}
+}
 
 @media screen and (max-width: 1278px) {
 
@@ -551,7 +568,7 @@ padding-top: 200px;
   }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 526px) {
 
   #banner {
     height: 1000px;
@@ -603,6 +620,15 @@ padding-top: 200px;
     margin-left: 0%;
     width: 100%;
     margin-bottom: 20%;
+  }
+
+  #footer-icons1{
+    margin-left: 0%;
+    width: 100%;
+  }
+
+  #footer-icons2{
+
   }
 
 }

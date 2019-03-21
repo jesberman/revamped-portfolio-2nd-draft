@@ -26,7 +26,7 @@
     </div>
 
     <div class="topnav" id="myTopnav">
-        <a id="nav-samepage" class="nav-bold" href="index.html">HOME</a>
+        <a class="nav-bold" href="index.html">HOME</a>
         <div class="dropdown nav-bold">
             <button class="dropbtn nav-bold">SERVICES
                 <i class="fa fa-caret-down"></i>
@@ -37,10 +37,153 @@
                 <a href="#">Link 3</a> -->
             </div>
         </div>
-        <a class="nav-bold" href="portfolio.html">PORTFOLIO</a>
+        <a id="nav-samepage" class="nav-bold" href="portfolio.html">PORTFOLIO</a>
         <a class="nav-bold" href="blog.html">BLOG</a>
 
         <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+
+    <div id="scroll-up-button" class="scroll-up-button-a">
+        <a id="scroll-up-text" href="#banner">
+            ↑
+        </a>
+    </div>
+
+    <div id="banner">
+        <h2 id="banner-header">
+            OUR WORK
+
+        </h2>
+        <h3 id="banner-subheader">
+            portfolio
+        </h3>
+    </div>
+
+    <div id="portfolio">
+
+        <div id="portfolio-select-bar-1" class="active-select">
+            All
+        </div>
+        <div id="portfolio-select-bar-2" class="inactive-select">
+            Multipage Websites
+        </div>
+        <div id="portfolio-select-bar-3" class="inactive-select">
+            Single-page Apps
+        </div>
+
+        <br>
+        <br>
+        <br>
+
+        <div id="portfolio-main-window">
+            <div id="portfolio-site1">
+                <div style="margin-top:20%; margin-left: 0%;" >
+                    <a  href="https://jesberman.github.io/Project2Final/index.html">
+                        <img  id="portfolio-image-1" src="assets/images/midas.jpg">
+                    </a>
+                    <h4>
+                        <a class="portfolio-text" href="https://jesberman.github.io/Project2Final/index.html">
+                            Bootstrap Site
+                        </a>
+                    </h4>
+                    <h5>
+                        <a class="portfolio-text" href="https://github.com/jesberman/Project2Final">
+                            GitHub Repo
+                        </a>
+                    </h5>
+                </div>
+            </div>
+    
+            <div id="portfolio-site2">
+                <div style="margin-top:20%; margin-left: 0%;" >
+                    <a href="https://jesberman.github.io/media-checker/">
+                        <img id="portfolio-image-2" src="assets/images/media.jpg">
+                    </a>
+                    <h4>
+                        <a class="portfolio-text" href="https://jesberman.github.io/media-checker/">
+                            Media Checker
+                        </a>
+                    </h4>
+                    <h5>
+                        <a class="portfolio-text" href="https://github.com/jesberman/media-checker">
+                            GitHub Repo
+                        </a>
+                    </h5>
+                </div>
+            </div>
+    
+            <div id="portfolio-site3">
+                <div style="margin-top:20%; margin-left: 0%;" >
+                    <a href="https://jesberman.github.io/firebase-train/">
+                        <img id="portfolio-image-3" src="assets/images/train.jpg">
+                    </a>
+                    <h4>
+                        <a class="portfolio-text" href="https://jesberman.github.io/firebase-train/">
+                            Train Schedule
+                        </a>
+                    </h4>
+                    <h5>
+                        <a class="portfolio-text" href="https://github.com/jesberman/firebase-train">
+                            GitHub Repo
+                        </a>
+                    </h5>
+                </div>
+            </div>
+    
+            <div id="portfolio-site4">
+                <div style="margin-top:20%; margin-left: 0%;" >
+                    <a href="https://jesberman.github.io/calculator/">
+                        <img id="portfolio-image-4" src="assets/images/calc.jpg">
+                    </a>
+                    <h4>
+                        <a class="portfolio-text" href="https://jesberman.github.io/calculator/">
+                            Calculator App
+                        </a>
+                    </h4>
+                    <h5>
+                        <a class="portfolio-text" href="https://github.com/jesberman/calculator">
+                            GitHub Repo
+                        </a>
+                    </h5>
+                </div>
+            </div>
+    
+            <div id="portfolio-site5">
+                <div style="margin-top:20%; margin-left: 0%;" >
+                    <a href="https://jesberman.github.io/triviagame.github.io/">
+                        <img id="portfolio-image-5" src="assets/images/trivia.jpg">
+                    </a>
+                    <h4>
+                        <a class="portfolio-text" href="https://jesberman.github.io/triviagame.github.io/">
+                            Trivia Game
+                        </a>
+                    </h4>
+                    <h5>
+                        <a class="portfolio-text" href="https://github.com/jesberman/triviagame.github.io">
+                            GitHub Repo
+                        </a>
+                    </h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="ending-div">
+        <h2 id="ending-div-heading">
+            LET'S WORK TOGETHER TO BUILD SOMETHING REAL
+        </h2>
+        <h3 id="ending-div-subheading-1">
+            Shoot us an email!
+        </h3>
+        <h3 class="ending-div-subheading-2">
+            Reach us at
+        </h3>
+        <h3 class="ending-div-subheading-2">
+            jesberman@gmail.com
+        </h3>
+        <h3 class="ending-div-subheading-2">
+            And we'll get back to you ASAP!
+        </h3>
     </div>
 
     <footer>
@@ -61,8 +204,7 @@
                         <li id="footer1-section1-col-1-contact-button" class="footer-list-item">
                             <a href="contact.html" style="color: white; text-decoration: none;">
                                 <div>
-                                        Contact Us
-
+                                    Contact Us
                                 </div>
                             </a>
                         </li>
@@ -138,8 +280,13 @@
         </div>
 
         <div id="footer2">
-            <p id="footer-icons">
+            <p id="footer-icons1">
                 Jes Berman Consulting
+            </p>
+            <p id="footer-icon-header">
+                Jes Berman Consulting
+            </p>
+            <p id="footer-icons2">
                 <br>
                 <!-- Facebook -->
                 <a href="" class="fa fb-ic">
@@ -171,7 +318,7 @@
     </footer>
 
 
-    <script src="assets/javascript/index.js">
+    <script src="assets/javascript/portfolio.js">
     </script>
 
 </body>
